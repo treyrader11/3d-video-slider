@@ -14,8 +14,6 @@ export default function VideoPlayer({ id }: { id: string }) {
         "[&_>_div]:relative",
         "[&_>_div]:scale-150", // spinner
         "md:scale-[3]"
-        // "hidden",
-        // "md:block"
       )}
     >
       <ReactPlayer
