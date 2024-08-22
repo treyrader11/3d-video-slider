@@ -12,6 +12,17 @@
     color: #6a6a6a;
     font-size: 12px;
     font-weight: 500;
+    overflow: hidden;
+  }
+
+   /* Hide scrollbars for WebKit browsers (e.g., Chrome, Safari) */
+   body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbars for Firefox */
+  body {
+    scrollbar-width: none; /* Firefox */
   }
 }
 

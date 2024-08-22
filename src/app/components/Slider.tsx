@@ -97,6 +97,7 @@ function Card({ className, date, title, category, children }: CardProps) {
       className={cn(
         "card",
         "absolute",
+        "fixed",
         // "top-1/2",
         "top-1/4",
         "left-1/2",
