@@ -1,8 +1,5 @@
 import { cn } from "@/lib/utils";
-import React from "react";
-// import dynamic from "next/dynamic";
 import ReactPlayer from "react-player/lazy";
-// const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function VideoPlayer({ id }: { id: string }) {
   return (
@@ -13,6 +10,7 @@ export default function VideoPlayer({ id }: { id: string }) {
         "overflow-hidden",
         "[&_>_div]:relative",
         "[&_>_div]:scale-150", // spinner
+        "[&_>_div]:size-8",
         "md:scale-[3]"
       )}
     >
