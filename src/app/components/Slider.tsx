@@ -64,7 +64,7 @@ export default function Slider() {
   return (
     <div
       style={{ perspective: "175px" }}
-      className={cn("absolute size-screen overflow-hidden top-[4rem]")}
+      className={cn("fixed size-screen overflow-hidden top-[4rem]")}
       onClick={handleClick}
       ref={sliderRef}
     >
